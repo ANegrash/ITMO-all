@@ -5,6 +5,8 @@
 
 Университет ИТМО, 2022
 
-## Лабораторная 1: решение СЛАУ методом Гаусса
+## Лабораторная 1: Системы линейных алгебраических уравнений
 
-Все файлы в папке [lab1](https://github.com/ANegrash/ITMO-all/tree/master/3%20Computational%20math/lab1)
+**Вариант:** метод Гаусса
+
+Все файлы в папке [lab1](https://github.com/ANegrash/ITMO-all/tree/master/4%20Computational%20math/lab1)
