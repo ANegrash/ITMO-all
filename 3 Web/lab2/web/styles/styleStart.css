@@ -1,0 +1,127 @@
+body {
+    font-family: message-box;
+}
+
+header {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+}
+
+/*Классы ячеек колонок таблицы результатов*/
+.x-class {
+    width: 5%;
+}
+
+.y-class {
+    width: 5%;
+}
+
+.r-class {
+    width: 5%;
+}
+
+.som-class {
+    width: 8%;
+}
+
+.stt-class {
+    width: 40%;
+}
+
+.sct-class {
+    width: 20%;
+}
+
+/*Для ввывода ошибок переданных данных*/
+.warning {
+    background-color: red;
+}
+
+/*Главная таблица вёрстки*/
+#m-table {
+    width: 100%;
+}
+
+/*Таблица формы и результата соответственно*/
+#page-table-F {
+    width: 367px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+}
+
+#page-table-T {
+    width: 400px;
+    /*height: 300px;*/
+    border-spacing: 2px;
+}
+
+/*Картинка мишени*/
+#image-coordinates {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height:300px;
+}
+
+#image-coordinates:hover {
+    opacity: 0.5;
+}
+
+/*Ввод текста*/
+#text_input {
+    margin-left: 5px;
+    width: 240px;
+}
+
+/*Первая ячейка шапки таблицы результата*/
+#x-id {
+    width: 6%;
+}
+
+/*Таблица результатов*/
+#result {
+    height: 300px;
+    width: 405px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightcyan;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/*Ссылка на гит*/
+#link {
+    text-align: center;
+}
+
+/*Скроллбар псевдоэлементом
+Вынесен справа, чтобы не мешал внутри блока своей шириной*/
+.custom_scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    -webkit-border-radius: 1px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb:vertical {
+    background-color: #8e8e8e;
+    -webkit-border-radius: 0;
+    -webkit-width: 5px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb:vertical:hover {
+    background: rgba(0, 245, 255, 0.65);
+}
+
+/*Липкий элемент*/
+.stickyTh {
+    position: sticky;
+    top: 0;
+}
