@@ -1,0 +1,292 @@
+body {
+    background: #f2f4f6 url("#{resource['img/bg.jpg']}") 0 20px;
+}
+
+#toIndex{
+    width: 33%;
+    height: 69%;
+    color: white;
+    background-color: #3B50C7;
+    border-color: #004F72;
+    border-radius: 5px;
+}
+#toMain{
+    width: 33%;
+    height: 69%;
+    color: white;
+    background-color: #3B50C7;
+    border-color: #004F72;
+    border-radius: 5px;
+}
+#header {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    font: normal 12pt Monospace;
+    background-color: #dedede;
+    padding-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+#header img {
+    width: 50%;
+    max-width: 50px;
+    height: auto;
+}
+
+#content {
+    background: #f2f4f6;
+    width: 960px;
+    margin: 0 auto 0;
+    text-align: center;
+    min-height: 600px;
+    overflow: hidden;
+}
+#description {
+    font: normal 500 12pt Arial;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#description h1 {
+    font: italic normal bold 22pt Arial;
+    margin-top: 0;
+}
+
+.program {
+    width: 80%;
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+#content{
+    width:960px;
+}
+#leftSide{
+    width:50%;
+    float: left;
+}
+
+#rightSide{
+    width:50%;
+    float: right;
+}
+
+
+.form {
+    float: right;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    width: 50%;
+}
+.form table{
+    width: 100%;
+}
+
+.form th {
+    text-align: right;
+}
+.form td {
+    text-align: left;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 2px;
+    border: solid 1px #004F72;
+    border-radius: 4px;
+    color: #E5FFFF;
+    background-color: #3BA4C7;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+#resultss {
+    width: 100%;
+    margin: 20px;
+    padding: 5px;
+}
+
+.button:hover {
+    background: #3B50C7;
+}
+
+#refresh {
+    display: none;
+}
+
+#clear {
+    text-decoration: none;
+    text-align: center;
+    padding: 11px 32px;
+    border: solid 1px #004F72;
+    border-radius: 4px;
+    font: 16px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #E5FFFF;
+    background-color: #3BA4C7;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    display: none;
+}
+
+.result {
+    overflow: hidden;
+    display: none;
+}
+
+.program img {
+    width: 100%;
+    height: auto;
+}
+
+/*Классы ячеек колонок таблицы результатов*/
+.x-class {
+    width: 5%;
+}
+
+.y-class {
+    width: 5%;
+}
+
+.r-class {
+    width: 5%;
+}
+
+.som-class {
+    width: 8%;
+}
+
+.stt-class {
+    width: 40%;
+}
+
+.sct-class {
+    width: 20%;
+}
+
+.page-table-T {
+    width: 400px;
+    /*height: 300px;*/
+    border-spacing: 2px;
+}
+
+/*Скроллбар псевдоэлементом
+Вынесен справа, чтобы не мешал внутри блока своей шириной*/
+.custom_scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    -webkit-border-radius: 1px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb:vertical {
+    background-color: #8e8e8e;
+    -webkit-border-radius: 0;
+    -webkit-width: 5px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb:vertical:hover {
+    background: rgba(0, 245, 255, 0.65);
+}
+
+/*Липкий элемент*/
+.stickyTh {
+    position: sticky;
+    top: 0;
+}
+
+
+#form-content {
+    margin: auto;
+}
+
+#chooseX h1 {
+    margin: 0 0 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+#table{
+    height: 400px;
+    overflow: auto;
+}
+
+table {
+    font-size: 12px;
+}
+
+th {
+    font-size: 16px;
+    border-style: solid;
+    background: #D8E6F3;
+}
+
+label.error {
+    color: red;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+input.error {
+    border: 1px dotted red;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 999px) {
+    #about {
+        width: 748px;
+    }
+
+    #content {
+        width: 748px;
+    }
+
+    .form {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #about {
+        width: 460px;
+    }
+
+    #content {
+        width: 460px;
+    }
+
+    .form {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #dataimage {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #about {
+        width: 300px;
+    }
+
+    #content {
+        width: 300px;
+    }
+
+    .form {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #dataimage {
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:orcl</property>
+        <property name="hibernate.connection.username">s283904</property>
+        <property name="hibernate.connection.password">ipe789</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle8iDialect</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.transaction.auto_close_session">true</property>
+
+        <property name="sequenceName">SEQ_SHOT</property>
+        <property name="sequenceName">SEQ_USER</property>
+
+        <mapping class="beansLab.entities.User" />
+        <mapping class="beansLab.entities.Shot" />
+    </session-factory>
+</hibernate-configuration>
