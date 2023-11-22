@@ -12,3 +12,8 @@
 
 ## Лабораторная 2
 [Ответы на вопросы к лабораторной](https://github.com/ANegrash/ITMO-all/blob/master/3%20Web/lab2/answers.pdf)
+
+## Лабораторная 3
+**Вариант:** 2698
+
+Отчёт в формате [pdf](https://github.com/ANegrash/ITMO-all/blob/master/3%20Web/lab3/report.pdf)
