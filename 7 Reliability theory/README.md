@@ -24,3 +24,7 @@
 ## Лабораторная 5 (6 ноября)
 
 Все файлы в папке [lab5](https://github.com/ANegrash/ITMO-all/tree/master/7%20Reliability%20theory/lab5)
+
+## Лабораторная 7 (4 декабря)
+
+Все файлы в папке [lab5](https://github.com/ANegrash/ITMO-all/tree/master/7%20Reliability%20theory/lab7)
