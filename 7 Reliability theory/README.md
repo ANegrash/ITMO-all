@@ -1,7 +1,7 @@
 # Теория надёжности
 **Автор:** Неграш Андрей
 
-**Преподаватель:** Платунов Алексей Евгеньевич
+**Преподаватель:** Богатырёв Владимир Анатольевич
 
 Университет ИТМО, 2023
 
@@ -27,4 +27,4 @@
 
 ## Лабораторная 7 (4 декабря)
 
-Все файлы в папке [lab5](https://github.com/ANegrash/ITMO-all/tree/master/7%20Reliability%20theory/lab7)
+Все файлы в папке [lab7](https://github.com/ANegrash/ITMO-all/tree/master/7%20Reliability%20theory/lab7)
