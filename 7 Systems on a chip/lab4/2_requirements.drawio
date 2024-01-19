@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2024-01-18T12:49:28.368Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="z-fGWI-FhhaNkAJuRUJL" version="22.1.18" type="device">
+  <diagram name="Страница — 1" id="QkuMDDRgyMmxQhEeeU4M">
+    <mxGraphModel dx="797" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0SNsyzZXOD27KlChxuM_-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="329" y="250" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0SNsyzZXOD27KlChxuM_-2" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="0SNsyzZXOD27KlChxuM_-3">
+          <mxGeometry x="75" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0SNsyzZXOD27KlChxuM_-1" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;SoC&lt;/b&gt;&lt;br&gt;Requirements Specification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0SNsyzZXOD27KlChxuM_-3">
+          <mxGeometry width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SNsyzZXOD27KlChxuM_-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;Resources" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0SNsyzZXOD27KlChxuM_-5" value="Id = &quot;1&quot;&lt;br&gt;text = &quot;SoC should be implemented using resources of Nexys A7 development board&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0SNsyzZXOD27KlChxuM_-4">
+          <mxGeometry x="10" y="50" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SNsyzZXOD27KlChxuM_-6" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;Clock Signal" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0SNsyzZXOD27KlChxuM_-7" value="Id = &quot;2&quot;&lt;br&gt;text = &quot;The system must work using the clock signal with period 10ns&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0SNsyzZXOD27KlChxuM_-6">
+          <mxGeometry x="10" y="50" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SNsyzZXOD27KlChxuM_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0SNsyzZXOD27KlChxuM_-2" target="0SNsyzZXOD27KlChxuM_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SNsyzZXOD27KlChxuM_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0SNsyzZXOD27KlChxuM_-2" target="0SNsyzZXOD27KlChxuM_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
