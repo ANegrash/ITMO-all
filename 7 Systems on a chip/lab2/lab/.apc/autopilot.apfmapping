@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="filter.h" path="E:\SoC\lab2\filter.h"/>
+    <originFiles name="filter.c" path="E:\SoC\lab2\filter.c"/>
+  </source>
+  <testbench>
+    <originFiles name="filter_tb.c" path="E:\SoC\lab2\filter_tb.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

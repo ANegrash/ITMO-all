@@ -1,0 +1,21 @@
+11:41:20 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153252	   1720	   3172	 158144	  269c0	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+
+11:41:22 Build Finished (took 2s.176ms)
+

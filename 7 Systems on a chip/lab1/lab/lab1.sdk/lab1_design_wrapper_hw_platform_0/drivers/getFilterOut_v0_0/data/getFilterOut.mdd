@@ -1,0 +1,16 @@
+# ==============================================================
+# Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+# Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+# ==============================================================
+OPTION psf_version = 2.1;
+
+BEGIN driver getFilterOut
+
+ OPTION supported_peripherals = (getFilterOut_v0_0 );
+ OPTION driver_state = ACTIVE;
+ OPTION copyfiles = all;
+ OPTION name = getFilterOut;
+ OPTION version = 0.0;
+
+END driver
+

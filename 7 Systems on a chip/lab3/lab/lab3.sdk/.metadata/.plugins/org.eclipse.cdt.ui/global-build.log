@@ -1,0 +1,772 @@
+17:30:19 **** Incremental Build of configuration Debug for project FIR_filter ****
+make all 
+make: Nothing to be done for 'all'.
+17:43:10 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:86:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+../src/main.c:77:12: warning: 'getFilterOut' defined but not used [-Wunused-function]
+ static int getFilterOut(unsigned short start_index) {
+            ^~~~~~~~~~~~
+../src/main.c:66:13: warning: 'update_filter_params' defined but not used [-Wunused-function]
+ static void update_filter_params(const unsigned short newDepth) {
+             ^~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2092	    268	   3112	   5472	   1560	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+17:46:15 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:87:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+../src/main.c:78:12: warning: 'getFilterOut' defined but not used [-Wunused-function]
+ static int getFilterOut(unsigned short start_index) {
+            ^~~~~~~~~~~~
+../src/main.c:67:13: warning: 'update_filter_params' defined but not used [-Wunused-function]
+ static void update_filter_params(const unsigned short newDepth) {
+             ^~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2276	    308	   3112	   5696	   1640	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+17:46:53 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:78:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+../src/main.c:67:13: warning: 'update_filter_params' defined but not used [-Wunused-function]
+ static void update_filter_params(const unsigned short newDepth) {
+             ^~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2276	    308	   3112	   5696	   1640	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+17:47:03 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:78:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+../src/main.c:67:13: warning: 'update_filter_params' defined but not used [-Wunused-function]
+ static void update_filter_params(const unsigned short newDepth) {
+             ^~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2276	    308	   3112	   5696	   1640	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:27:11 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculateFilter':
+../src/main.c:94:3: warning: statement with no effect [-Wunused-value]
+   update_filter_params
+   ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:94:23: error: expected ';' before '}' token
+   update_filter_params
+                       ^
+                       ;
+  }
+  ~                     
+At top level:
+../src/main.c:92:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:83:12: warning: 'getFilterOut' defined but not used [-Wunused-function]
+ static int getFilterOut(unsigned short start_index) {
+            ^~~~~~~~~~~~
+../src/main.c:78:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+13:27:55 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:92:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:78:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2276	    308	   3112	   5696	   1640	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:31:55 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculateFilter':
+../src/main.c:105:23: error: 'AMX_DEPTH' undeclared (first use in this function); did you mean 'MAX_DEPTH'?
+   for (int i = 0; i < AMX_DEPTH; ++i) {
+                       ^~~~~~~~~
+                       MAX_DEPTH
+../src/main.c:105:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:106:25: error: 'AXEL_OUTPUTS' undeclared (first use in this function); did you mean 'AXEL_INPUTS'?
+    result[i] = Xil_In32(AXEL_OUTPUTS + 4 * i);
+                         ^~~~~~~~~~~~
+                         AXEL_INPUTS
+At top level:
+../src/main.c:92:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:78:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+13:35:20 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculateFilter':
+../src/main.c:106:23: error: 'AMX_DEPTH' undeclared (first use in this function); did you mean 'MAX_DEPTH'?
+   for (int i = 0; i < AMX_DEPTH; ++i) {
+                       ^~~~~~~~~
+                       MAX_DEPTH
+../src/main.c:106:23: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/main.c:93:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:79:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+13:36:57 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:93:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:79:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2276	    308	   3112	   5696	   1640	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:37:10 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:93:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:79:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2276	    308	   3112	   5696	   1640	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:37:44 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:93:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel, bool *outCorrect) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:79:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2276	    308	   3112	   5696	   1640	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:38:01 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:93:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel, bool *outCorrect) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:79:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2276	    308	   3112	   5696	   1640	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:40:49 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculateFilter':
+../src/main.c:113:17: warning: implicit declaration of function 'Xit_In8'; did you mean 'Xil_In8'? [-Wimplicit-function-declaration]
+   *outCorrect = Xit_In8(AXEL_OUT_CORRECT);
+                 ^~~~~~~
+                 Xil_In8
+../src/main.c:113:25: error: 'AXEL_OUT_CORRECT' undeclared (first use in this function); did you mean 'AXEL_OYT_CORRECT'?
+   *outCorrect = Xit_In8(AXEL_OUT_CORRECT);
+                         ^~~~~~~~~~~~~~~~
+                         AXEL_OYT_CORRECT
+../src/main.c:113:25: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/main.c:94:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel, bool *outCorrect) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:80:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+13:40:57 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculateFilter':
+../src/main.c:113:17: warning: implicit declaration of function 'Xit_In8'; did you mean 'Xil_In8'? [-Wimplicit-function-declaration]
+   *outCorrect = Xit_In8(AXEL_OUT_CORRECT);
+                 ^~~~~~~
+                 Xil_In8
+../src/main.c:113:25: error: 'AXEL_OUT_CORRECT' undeclared (first use in this function); did you mean 'AXEL_OYT_CORRECT'?
+   *outCorrect = Xit_In8(AXEL_OUT_CORRECT);
+                         ^~~~~~~~~~~~~~~~
+                         AXEL_OYT_CORRECT
+../src/main.c:113:25: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/main.c:94:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel, bool *outCorrect) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:80:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+13:41:03 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculateFilter':
+../src/main.c:113:25: error: 'AXEL_OUT_CORRECT' undeclared (first use in this function); did you mean 'AXEL_OYT_CORRECT'?
+   *outCorrect = Xil_In8(AXEL_OUT_CORRECT);
+                         ^~~~~~~~~~~~~~~~
+                         AXEL_OYT_CORRECT
+../src/main.c:113:25: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/main.c:94:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel, bool *outCorrect) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:80:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+13:41:19 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:94:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel, bool *outCorrect) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:80:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2276	    308	   3112	   5696	   1640	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:43:12 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:122:6: warning: unused variable 'depth' [-Wunused-variable]
+  int depth = 3;
+      ^~~~~
+At top level:
+../src/main.c:95:13: warning: 'calculateFilter' defined but not used [-Wunused-function]
+ static void calculateFilter(int data[MAX_DEPTH], unsigned short depth, int* result, bool useAxel, bool *outCorrect) {
+             ^~~~~~~~~~~~~~~
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+../src/main.c:68:12: warning: 'out' defined but not used [-Wunused-variable]
+ static int out[MAX_DEPTH];
+            ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1916	    268	   3112	   5296	   14b0	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:44:00 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5708	    316	   3152	   9176	   23d8	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:44:42 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:125:24: warning: passing argument 2 of 'Xil_Out16' makes integer from pointer without a cast [-Wint-conversion]
+  Xil_Out16(0x40000000, out);
+                        ^~~
+In file included from ../../FIR_filter_bsp/microblaze_0/include/sleep.h:52,
+                 from ../src/main.c:51:
+../../FIR_filter_bsp/microblaze_0/include/xil_io.h:200:48: note: expected 'u16' {aka 'short unsigned int'} but argument is of type 'int *'
+ static INLINE void Xil_Out16(UINTPTR Addr, u16 Value)
+                                            ~~~~^~~~~
+At top level:
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5840	    316	   3148	   9304	   2458	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:45:23 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5888	    316	   3148	   9352	   2488	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:49:43 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5936	    316	   3148	   9400	   24b8	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:51:35 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5936	    316	   3148	   9400	   24b8	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+13:58:05 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5984	    316	   3148	   9448	   24e8	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+14:00:05 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6032	    316	   3148	   9496	   2518	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+14:03:39 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6032	    316	   3148	   9496	   2518	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+14:08:38 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6120	    316	   3148	   9584	   2570	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+14:21:07 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6120	    316	   3148	   9584	   2570	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+12:03:52 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+make: Nothing to be done for 'all'.
+12:07:29 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:51:10: fatal error: sleep.h: No such file or directory
+ #include "sleep.h"
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+12:11:32 **** Auto Build of project FIR_filter_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/getFilterOut_v0_0/src"
+make -C microblaze_0/libsrc/getFilterOut_v0_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/getFilterOut_v0_0/src"
+make -C microblaze_0/libsrc/getFilterOut_v0_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling getFilterOut"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+12:11:42 **** Auto Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6120	    316	   3148	   9584	   2570	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
+17:05:44 **** Build of project FIR_filter_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/getFilterOut_v0_0/src"
+make -C microblaze_0/libsrc/getFilterOut_v0_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/getFilterOut_v0_0/src"
+make -C microblaze_0/libsrc/getFilterOut_v0_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling getFilterOut"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+17:05:56 **** Build of configuration Debug for project FIR_filter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:81:13: warning: 'is_series_entered' defined but not used [-Wunused-function]
+ static bool is_series_entered() {
+             ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../FIR_filter_bsp/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: FIR_filter.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../FIR_filter_bsp/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "FIR_filter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FIR_filter.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size FIR_filter.elf  |tee "FIR_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6120	    316	   3148	   9584	   2570	FIR_filter.elf
+'Finished building: FIR_filter.elf.size'
+' '
