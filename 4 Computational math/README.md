@@ -38,3 +38,7 @@
 ## Лабораторная 6: Интегрирование по области
 
 Все файлы в папке [lab6](https://github.com/ANegrash/ITMO-all/tree/master/4%20Computational%20math/lab6)
+
+## Рубежные работы
+
+Обе рубежки нашего года с ответами из moodle находятся в папке [rubezhki](https://github.com/ANegrash/ITMO-all/tree/master/4%20Computational%20math/rubezhki)
