@@ -1,7 +1,0 @@
-Running: xsim.dir/getFilterOut/xsimk.exe -simmode gui -wdb getFilterOut.wdb -simrunnum 0 -socket 63513
-Design successfully loaded
-Design Loading Memory Usage: 9664 KB (Peak: 9664 KB)
-Design Loading CPU Usage: 77 ms
-Simulation completed
-Simulation Memory Usage: 12820 KB (Peak: 12820 KB)
-Simulation CPU Usage: 999 ms
