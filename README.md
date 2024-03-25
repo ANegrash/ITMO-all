@@ -3,7 +3,17 @@
 
 **Автор:** Неграш Андрей 
 
+**Код, направление подготовки (специальность):** 09.03.01 Информатика и вычислительная техника
+
+**Образовательная программа:** Компьютерные системы и технологии
+
+ФПИиКТ
+
 2019-2024
+
+По возникающим вопросам можете обращаться по указанным на главной странице GitHub контактам, однако если здесь нет какой-то лабораторной или ответов, значит у меня этого не было или оно не сохранилось. Учебные материалы (методички, презентации и т.д.) у меня есть, сюда не выкладывал, при обращении в лс могу выслать.
+
+Не забывайте ставить звёздочки - так я пойму, что этим кто-то пользуется и мне будет приятно;)
 
 ## Содержание
 
@@ -34,9 +44,12 @@
 - [Функциональная схемотехника](https://github.com/ANegrash/ITMO-all/tree/master/6%20Functional%20circuitry)
 
 ### 4 курс
+- [Защита и действия человека в условиях ЧС](https://github.com/ANegrash/ITMO-all/tree/master/8%20Protection%20and%20actions%20in%20emergency%20situations)
 - [Метрология, стандартизация и сертификация](https://github.com/ANegrash/ITMO-all/tree/master/7%20Metrology)
 - [Моделирование](https://github.com/ANegrash/ITMO-all/tree/master/7%20Modeling)
+- [Практика](https://github.com/ANegrash/ITMO-all/tree/master/8%20Practice)
 - [Проектирование вычислительных систем](https://github.com/ANegrash/ITMO-all/tree/master/7%20Computer%20systems%20design)
+- [Проектная документация](https://github.com/ANegrash/ITMO-all/tree/master/8%20Project%20documentation)
 - [Системы на кристалле](https://github.com/ANegrash/ITMO-all/tree/master/7%20Systems%20on%20a%20chip)
 - [Теория надёжности](https://github.com/ANegrash/ITMO-all/tree/master/7%20Reliability%20theory)
 - [Технологии нейросетевых вычислений](https://github.com/ANegrash/ITMO-all/tree/master/7%20Neural%20network%20computing%20technologies)
